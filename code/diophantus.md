@@ -1,6 +1,7 @@
 ---
 layout: default
 code_page: true
+code_url: "https://github.com/jackmaney/Diophantus"
 ---
 
 <h1>Diophantus</h1>

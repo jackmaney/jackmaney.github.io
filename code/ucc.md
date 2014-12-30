@@ -1,9 +1,12 @@
 ---
 layout: default
 code_page: true
+code_url: "https://github.com/jackmaney/ucc"
 ---
 
 <h1>Universal Correlation Coefficient</h1>
+
+<p>(Available in <a href="https://github.com/jackmaney/ucc">R</a> or <a href="https://github.com/jackmaney/ucc-pandas">Python</a>.)</p>
 
 <p>At the 2011 Joint Statistical Meetings, Nuo Xu of the University of Alabama at Birmingham presented <a href="http://www.amstat.org/meetings/jsm/2011/onlineprogram/AbstractDetails.cfm?abstractid=303386">a paper</a>--coauthored with Xuan Huang also of UAB
     and Samuel Huang at the University of Cincinatti--in which a Universal Correlation Coefficient is defined and developed. For two discrete random variables <code>x</code> and <code>y</code>, this coefficient gives the <em>degree of dependency</em>,
