@@ -28,7 +28,28 @@ The ultimate aim of this software distribution is to compute, for given <code>a<
 
 Take a look at the file <a href="https://github.com/jackmaney/Diophantus/blob/master/src/com/jackmaney/Diophantus/Diophantus.java">Diophantus.java in com.jackmaney.Diophantus</a>. The source of that file (as of this writing) is:
 
-<script src="https://gist.github.com/jackmaney/841ca7af0027c02a6deb.js"></script>
+{% highlight java linenos %}
+
+package com.jackmaney.Diophantus;
+
+
+import com.jackmaney.Diophantus.element.Element;
+
+
+public class Diophantus {
+
+    public static void main(String[] args) {
+        Element e = new Element(6,0,-5);
+
+        System.out.println(e.getIrreducibleFactorizations());
+
+
+    }
+
+}
+
+{% endhighlight %}
+
 
 Note that we're creating a new <code>Element</code> that corresponds to <code>6 = 6 + 0 * sqrt(-5)</code>. The output is a <code>Vector</code> of <a  href="https://github.com/jackmaney/Diophantus/blob/master/src/com/jackmaney/Diophantus/Factorization.java"><code>Factorizations</code></a> that, when printed, looks like
 

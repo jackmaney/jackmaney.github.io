@@ -1,5 +1,5 @@
-url: "http://localhost:4000"
-# baseurl: "http://localhost:4000"
+# url: "http://localhost:4000"
 name: "Jack Maney"
 permalink: pretty
 highlighter: pygments
+paginate: 2
