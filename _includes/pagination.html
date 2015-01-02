@@ -1,32 +1,49 @@
+{% if paginator.total_pages > 1 %}
 <nav>
     <ul class="pagination">
         {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-        <li><a href="/"><i class="fa fa-chevron-left"></i></a>
+        <li>
+            <a href="/"><i class="fa fa-chevron-left"></i></a>
         </li>
         {% else %}
-        <li><a href="/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i></a>
+        <li>
+            <a href="/page{{ paginator.previous_page }}">
+                <i class="fa fa-chevron-left"></i>
+            </a>
         </li>
         {% endif %} {% else %}
-        <li><span class="disabled"><i class="fa fa-chevron-left"></i></span>
+        <li>
+            <span class="disabled"><i class="fa fa-chevron-left"></i></span>
         </li>
         {% endif %} {% if paginator.page == 1 %}
-        <li><span class="active">1</span>
+        <li>
+            <span class="active">1</span>
         </li>
         {% else %}
-        <li><a href="/">1</a>
+        <li>
+            <a href="/">1</a>
         </li>
         {% endif %} {% for count in (2..paginator.total_pages) %} {% if count == paginator.page %}
-        <li><span class="active">{{ count }}</span>
+        <li>
+            <span class="active">{{ count }}</span>
         </li>
         {% else %}
-        <li><a href="/page{{ count }}">{{ count }}</a>
+        <li>
+            <a href="/page{{ count }}">{{ count }}</a>
         </li>
         {% endif %} {% endfor %} {% if paginator.next_page %}
-        <li><a href="/page{{ paginator.next_page }}"><i class="fa fa-chevron-right"></i></a>
+        <li>
+            <a href="/page{{ paginator.next_page }}">
+                <i class="fa fa-chevron-right"></i>
+            </a>
         </li>
         {% else %}
-        <li><span class="disabled"><i class="fa fa-chevron-right"></i></span>
+        <li>
+            <span class="disabled">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
         </li>
         {% endif %}
     </ul>
 </nav>
+{% endif %}
