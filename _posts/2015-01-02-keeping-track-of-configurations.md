@@ -14,6 +14,6 @@ At work, I recently got a new MacBook Pro, and in the process of migrating over 
 
 * A virtual environment indicator.
 
-![Screenshot](https://raw.github.com/jackmaney/bash-profile/master/screenshot.png)
+<img src="https://raw.github.com/jackmaney/bash-profile/master/screenshot.png" width="800px" height="100%">
 
 The only other piece--the bits of `.bash_profile` that put the rest of these things together--can be found [here](https://github.com/jackmaney/bash-profile).
