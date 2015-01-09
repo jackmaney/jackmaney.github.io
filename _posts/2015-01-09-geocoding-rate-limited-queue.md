@@ -27,7 +27,7 @@ I also used this project as an excuse to familiarize myself a bit with [Sphinx](
 My resulting documentation for the `rate_limited_queue` package can be found [here](http://rate-limited-queue.readthedocs.org/en/latest/). The code to use this queue for rate-limited geocoding 
 would look something like this:
 
-```
+{% highlight python %}
 
 import geopy
 
@@ -48,6 +48,6 @@ q = RateLimitedQueue(
 # Grabs the geocoded locations, but doesn't process
 # more than ten per second
 geocoded_locations = q.process()
-```
+{% endhighlight %}
 
 It's still a bit rough around the edges, but it's a start.
