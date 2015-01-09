@@ -28,6 +28,7 @@ My resulting documentation for the `rate_limited_queue` package can be found [he
 would look something like this:
 
 ```python
+
 import geopy
 
 from rate_limited_queue import RateLimitedQueue, RateLimit
