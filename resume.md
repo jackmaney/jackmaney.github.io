@@ -1,9 +1,9 @@
 ---
 
-title: "Jack Maney's Resume"
-
+title: "Jack Maney's Resume" 
 layout: default
----------------
+
+---
 
 <div class="well well-lg">
 <h1>Jack Maney</h1>
