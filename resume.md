@@ -34,6 +34,9 @@ layout: default
 </blockquote>
 
 <ul>
+
+<li>Built a prototype of an algorithm in Topological Data Analysis to better understand high-dimensional data sets. The prototype is written in Python and leverages a Greenplum cluster by way of SQL templates.</li>
+
 <li>Built prototypes for three components of DST's Predictive Wholesaling product, and assisted the AAG Development team in productionizing the prototypes.</li>
 
 <li>Created and prototyped a Share Retention metric that provides a measurement of "stickiness" of fund holdings that does not directly depend on price.</li>
