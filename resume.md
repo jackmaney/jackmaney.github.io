@@ -251,7 +251,7 @@ Titles Held:<br>
 
 <li>QlikView Developer Training from Qlik, 2013</li>
 
-<li>Attended <a href="http://www.kdd.org/kdd2014/">KDD 2014</a></li>.
+<li>Attended <a href="http://www.kdd.org/kdd2014/">KDD 2014</a></li>
 
 <li>Greenplum User Training from Pivotal, 2014</li>
 
