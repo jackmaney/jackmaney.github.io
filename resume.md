@@ -35,13 +35,19 @@ layout: default
 
 <ul>
 
-<li>Built a prototype of an algorithm in Topological Data Analysis to better understand high-dimensional data sets. The prototype is written in Python and leverages a Greenplum cluster by way of SQL templates.</li>
+<li>Prototyped a product for acquisition of financial advisors.</li>
+
+<li>Contributed towards an Advisor Segmentation product, including a method of streamlining and summarizing the differences between segments.</li>
+
+<li>Built a prototype of the Mapper Algorithm (as used in Topological Data Analysis) to better understand high-dimensional data sets. The prototype is written in Python and leverages a Greenplum cluster by way of SQL templates.</li>
 
 <li>Built prototypes for three components of DST's Predictive Wholesaling product, and assisted the AAG Development team in productionizing the prototypes.</li>
 
 <li>Created and prototyped a Share Retention metric that provides a measurement of "stickiness" of fund holdings that does not directly depend on price.</li>
 
 <li>Assisted in building models for a proof of concept for a client.</li>
+
+<li>Mentored and taught Python to a few members of the Networking team, to facilitate the creation of a Flask web app to automate some types of network change requests.</li>
 
 <li>Mentoring other members of the Data Science team.</li>
 </ul>
@@ -139,17 +145,25 @@ Titles Held:<br>
 <h2>Open-source Software</h2>
 
 <div class="well">
-<h3><a href="https://metacpan.org/module/Hypatia">Hypatia</a></h3>
-
-<p>Hypatia is a data visualization API, acting as a "layer of glue" between <a href="https://metacpan.org/module/DBI">DBI</a> and various data visualization front-end modules.</p>
-</div>
-
-<div class="well">
 <h3><a href="https://github.com/jackmaney/ucc">Universal Correlation Coefficient</a></h3>
 
 <p>At the 2011 Joint Statistical Meetings, <a href="http://www.amstat.org/meetings/jsm/2011/onlineprogram/AbstractDetails.cfm?abstractid=303386">a paper was presented</a> that introduced the idea of a Universal Correlation Coefficient. This coefficient measures the degree of dependency (but not the form of dependency) for two discrete random variables.</p>
 
 <p>I have written an R library that implements this Universal Correlation Coefficient. This coefficient can be used to automate the discovery of (potentially non-linear) relationships among pairs of discrete random variables.</p>
+
+</div>
+
+<div class="well">
+<h3><a href="http://pg-utils.readthedocs.io/en/latest/?badge=latest#">pg-utils: Utilities for working with PostgreSQL</a></h3>
+
+<p>Some handy utilities that I've written for processing data in either PostgreSQL or Greenplum.</p>
+
+</div>
+
+<div class="well">
+<h3><a href="https://github.com/jackmaney/python-stdlib-list">Python Standard Library List</a></h3>
+
+<p>Lists of names of packages in the Python standard library (for versions 2.6, 2.7, and 3.2-5), along with the code used to grab the list of libraries from the official Python docs. Surprisingly, this is my most popular repository on GitHub.</p>
 
 </div>
 
@@ -166,7 +180,7 @@ Titles Held:<br>
 
 <ul>
 
-<li>Python, <a href="http://pandas.pydata.org/">Pandas</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scikit-learn.org/stable/">scikit-learn</a>, <a href="http://matplotlib.org/">matplotlib</a></li>
+<li>Python, <a href="http://pandas.pydata.org/">Pandas</a>, <a href="http://www.numpy.org/">NumPy</a>, <a href="https://www.scipy.org/">SciPy</a>, <a href="http://scikit-learn.org/stable/">scikit-learn</a>, <a href="http://matplotlib.org/">matplotlib</a>, <a href="https://web.stanford.edu/~mwaskom/software/seaborn/">seaborn</a>, PyCharm</li>
 
 <li>Perl, <a href="https://metacpan.org/module/Moose">Moose (OO Perl)</a>, DBI, threads, threads::shared, Thread::Queue, Template::Toolkit</li>
 
@@ -201,11 +215,11 @@ Titles Held:<br>
 <ul>
 <li>Mathematics</li>
 
+<li>Topological Data Analysis</li>
+
 <li>Data mining</li>
 
 <li>Data visualization</li>
-
-<li>Regression modeling</li>
 
 <li>Implementing algorithms and ideas gleaned from academic publications</li>
 </ul>
@@ -242,6 +256,9 @@ Titles Held:<br>
 <li>Greenplum User Training from Pivotal, 2014</li>
 
 <li>Data Anonymization Training from Privacy Analytics, 2015</li>
+
+<li>Hadoop and MapReduce Training from Hortonworks, 2015</li>
+
 </ul>
 
 </div>
