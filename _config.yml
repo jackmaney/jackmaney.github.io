@@ -1,4 +1,4 @@
 name: "Jack Maney"
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 paginate: 5
