@@ -1,7 +1,7 @@
 ---
 
 title: "Jack Maney's Resume" 
-layout: default
+layout: printable
 
 ---
 
