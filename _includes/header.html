@@ -9,15 +9,16 @@
         {% if page.title %} {{page.title}} {% else %} Jack Maney {% endif %}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment.css" />
-    <script>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/pygment.css" />
+    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+    
+    <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

@@ -2,3 +2,4 @@ name: "Jack Maney"
 permalink: pretty
 highlighter: rouge
 paginate: 5
+gems: ["jekyll-paginate"]
