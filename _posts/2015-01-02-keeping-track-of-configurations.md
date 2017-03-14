@@ -1,7 +1,7 @@
 ---
 title: Keeping Track Of Cosmetic Configuration Changes
 layout: post
-tags: code
+tags: [code]
 ---
 
 One of the minor regrets that I've had over the years is not keeping adequate track of configuration changes--even cosmetic changes.

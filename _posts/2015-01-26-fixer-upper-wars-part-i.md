@@ -1,7 +1,7 @@
 ---
 title: "Fixer-Upper Wars Episode I: A New Start"
 layout: post
-tags: personal, house
+tags: [personal, house]
 date: 2015-01-26
 ---
 

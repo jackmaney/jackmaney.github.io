@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello, World! (...again)"
-tags: life, blog
+tags: [life, blog]
 ---
 
 So, here we go again...for reasons I don't fully understand, my old site broke. I think part of it was due to upgrades in [Express](http://expressjs.com/) and [Poet](http://jsantell.github.io/poet/). However, I had grown disillusioned enough with Node.js that I just...well, I gave up.

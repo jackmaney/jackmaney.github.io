@@ -1,7 +1,7 @@
 ---
 title: Geocoding and A Rate Limited Queue
 layout: post
-tags: code, geocoding
+tags: [code, geocoding]
 ---
 
 For a recent project at work, I had to [geocode](http://en.wikipedia.org/wiki/Geocoding) lots of addresses. 
