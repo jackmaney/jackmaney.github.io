@@ -1,5 +1,6 @@
-name: "Jack Maney"
+name: Jack Maney
 permalink: pretty
 highlighter: rouge
 paginate: 5
-gems: ["jekyll-paginate"]
+plugins:
+  - jekyll-paginate
