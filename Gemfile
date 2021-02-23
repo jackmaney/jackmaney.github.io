@@ -14,6 +14,11 @@ source "https://rubygems.org"
 # https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
 
 gem "github-pages", "~> 212", group: :jekyll_plugins
+
+# Updating to avoid security issue
+
+gem "nokogiri", "~> 1.11.0"
+
 #
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
