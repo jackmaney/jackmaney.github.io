@@ -2,6 +2,7 @@
 
 .PHONY : all resume build clean help
 PDF_FILES = ./resume/Jack_Maney_Resume.pdf ./_site/resume/Jack_Maney_Resume.pdf
+PANDOC = /usr/bin/pandoc
 
 help: ## show this help
 	@echo 'usage: make [target] ...'
@@ -16,7 +17,7 @@ build: ## Build the static website. Advisable to do this before doing a `git pus
 
 resume: build ## Rebuilds the website, and then builds a PDF version of the resume (pandoc required).
 	@/bin/echo -n "Building PDFs..."
-	@pandoc --read=html --write=latex -V title:"" -o ./resume/Jack_Maney_Resume.pdf ./_site/resume/printable/index.html && cp ./resume/Jack_Maney_Resume.pdf ./_site/resume/Jack_Maney_Resume.pdf
+	@${PANDOC} --read=html --write=latex -V title:"" -o ./resume/Jack_Maney_Resume.pdf ./_site/resume/printable/index.html && cp ./resume/Jack_Maney_Resume.pdf ./_site/resume/Jack_Maney_Resume.pdf
 	@/bin/echo "Done!"
 
 serve: ## Serve the site locally (for testing purposes).
