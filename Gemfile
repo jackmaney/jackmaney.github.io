@@ -17,7 +17,7 @@ gem "github-pages", "~> 212", group: :jekyll_plugins
 
 # Updating to avoid security issue
 
-gem "nokogiri", "~> 1.11.0"
+gem "nokogiri", "~> 1.11.4"
 
 #
 gem "minima", "~> 2.5"
