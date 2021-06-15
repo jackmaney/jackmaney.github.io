@@ -4,9 +4,9 @@ layout: post
 tags: [code, geocoding]
 ---
 
-For a recent project at work, I had to [geocode](http://en.wikipedia.org/wiki/Geocoding) lots of addresses. 
+For a recent project at work, I had to [geocode](https://en.wikipedia.org/wiki/Geocoding) lots of addresses. 
 Thankfully, [geopy](https://github.com/geopy/geopy) makes this relatively painless: just grab 
-[a class representing the geocoding API that you want](http://geopy.readthedocs.org/en/latest/#module-geopy.geocoders) 
+[a class representing the geocoding API that you want](https://geopy.readthedocs.org/en/latest/#module-geopy.geocoders) 
 and go to town.
 
 However, many of these APIs have rate limits--and even for the ones that don't, it's probably unwise to risk annoying 
@@ -23,8 +23,8 @@ via pip:
 [sudo] pip install rate_limited_queue
 ```
 
-I also used this project as an excuse to familiarize myself a bit with [Sphinx](http://sphinx-doc.org/). 
-My resulting documentation for the `rate_limited_queue` package can be found [here](http://rate-limited-queue.readthedocs.org/en/latest/). The code to use this queue for rate-limited geocoding 
+I also used this project as an excuse to familiarize myself a bit with [Sphinx](https://sphinx-doc.org/). 
+My resulting documentation for the `rate_limited_queue` package can be found [here](https://rate-limited-queue.readthedocs.org/en/latest/). The code to use this queue for rate-limited geocoding 
 would look something like this:
 
 {% highlight python %}

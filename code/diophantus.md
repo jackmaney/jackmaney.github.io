@@ -8,7 +8,7 @@ code_url: "https://github.com/jackmaney/Diophantus"
 
 In order to learn Java, I'm reconstructing some (long since lost) code that I wrote in Mathematica as a graduate student.
 
-Back when you memorized your multiplication tables as a kid, something that made that task easy was the [Fundamental Theorem of Arithmetic](http://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that every natural number larger than 1 factors uniquely into prime numbers.
+Back when you memorized your multiplication tables as a kid, something that made that task easy was the [Fundamental Theorem of Arithmetic](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that every natural number larger than 1 factors uniquely into prime numbers.
 
 However, there are other, stranger algebraic structures where factorizations need not be unique.
 
@@ -73,7 +73,7 @@ conforming to our expectations above. Of course, feel free to tinker around with
 <h2>Why "Diophantus"?</h2>
 
 
-<a href="http://en.wikipedia.org/wiki/Diophantus">Diophantus of Alexandria</a> was an ancient Greek mathematician and philosopher after whom <a href="http://en.wikipedia.org/wiki/Diophantine_equation">Diophantine equations</a> are named. Finding irreducible factors of a given element of <code>Z[sqrt(d)]</code> hinges upon finding integer solutions for <code>x</code> and <code>y</code> to the following Diophantine equation:
+<a href="https://en.wikipedia.org/wiki/Diophantus">Diophantus of Alexandria</a> was an ancient Greek mathematician and philosopher after whom <a href="https://en.wikipedia.org/wiki/Diophantine_equation">Diophantine equations</a> are named. Finding irreducible factors of a given element of <code>Z[sqrt(d)]</code> hinges upon finding integer solutions for <code>x</code> and <code>y</code> to the following Diophantine equation:
 
 <pre><code>x^2 - d * y^2 = n</code></pre>
 

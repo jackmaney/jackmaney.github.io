@@ -7,7 +7,7 @@ code_url: "https://github.com/jackmaney/ucc"
 
 <p>(Available in <a href="https://github.com/jackmaney/ucc">R</a> or <a href="https://github.com/jackmaney/ucc-pandas">Python</a>.)</p>
 
-<p>At the 2011 Joint Statistical Meetings, Nuo Xu of the University of Alabama at Birmingham presented <a href="http://www.amstat.org/meetings/jsm/2011/onlineprogram/AbstractDetails.cfm?abstractid=303386">a paper</a>--coauthored with Xuan Huang also of UAB and Samuel Huang at the University of Cincinatti--in which a Universal Correlation Coefficient is defined and developed. For two discrete random variables `x` and `y`, this coefficient gives the <em>degree of dependency</em>,
+<p>At the 2011 Joint Statistical Meetings, Nuo Xu of the University of Alabama at Birmingham presented <a href="https://www.amstat.org/meetings/jsm/2011/onlineprogram/AbstractDetails.cfm?abstractid=303386">a paper</a>--coauthored with Xuan Huang also of UAB and Samuel Huang at the University of Cincinatti--in which a Universal Correlation Coefficient is defined and developed. For two discrete random variables `x` and `y`, this coefficient gives the <em>degree of dependency</em>,
 but not the <em>form of dependency</em>.</p>
 
 <p>I've created an R library for calculating this coefficient. This coefficient is useful for programmatically determining, amongst several discrete random variables, which pairs have (potentially non-linear) relationships.</p>
@@ -16,7 +16,7 @@ but not the <em>form of dependency</em>.</p>
 
 <p>Recall that the <a href="https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient">Pearson Correlation Coefficient</a> `r` is a number between -1 and 1 that represents how close your data is to fitting on a line:</p>
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Correlation_coefficient.png/800px-Correlation_coefficient.png" alt="Examples of scatter diagrams with different values of the Pearson correlation coefficient." width="480" height="265" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Correlation_coefficient.png/800px-Correlation_coefficient.png" alt="Examples of scatter diagrams with different values of the Pearson correlation coefficient." width="480" height="265" />
 
 <p>In particular, if our variables are named `x` and `y`, then </p>
 
@@ -170,7 +170,7 @@ plot(ucc.delta(ucc.ranks(dat_exact_fit)),pch=20
 
 <h2>All right, enough rambling, already. What exactly IS this Universal Correlation Coefficient?!</h2>
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/l1YmS_VDvMY" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/l1YmS_VDvMY" frameborder="0" allowfullscreen></iframe>
 
 <p>Let `a` denote the average of the delta of `y` ranks with respect to `x`. It turns out that `a` approximately equals `31.44`.</p>
 
