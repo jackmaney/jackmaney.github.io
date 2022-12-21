@@ -1,7 +1,9 @@
 ---
 layout: main_page
 ---
+{% if paginator.total_posts > 0 %}
 <h1>Latest Blog Posts:</h1>
+{% endif %}
 {% for post in paginator.posts %}
 <div class="well">
     <a href="{{ post.url }}">
