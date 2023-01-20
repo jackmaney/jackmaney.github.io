@@ -2,7 +2,7 @@
 
 .PHONY : all resume build clean help
 PDF_FILES = ./resume/Jack_Maney_Resume.pdf ./_site/resume/Jack_Maney_Resume.pdf
-PANDOC = /usr/bin/pandoc
+PANDOC = pandoc
 
 help: ## show this help
 	@echo 'usage: make [target] ...'
