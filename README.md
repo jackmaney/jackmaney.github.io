@@ -1,4 +1,4 @@
-github-homepage
+[jackmaney.github.io](https://jackmaney.com)
 ===============
 
-Trying to figure out this whole GitHub Pages thing...
+My homepage. The most updated part of it is [my resume](https://www.jackmaney.com/resume/Jack_Maney_Resume.pdf).
