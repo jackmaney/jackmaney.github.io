@@ -17,7 +17,7 @@ gem "github-pages", "~> 215", group: :jekyll_plugins
 
 # Updating to avoid security issue
 
-gem "nokogiri", "~> 1.13.10"
+gem "nokogiri", "~> 1.14.3"
 
 gem "kramdown", ">= 2.3.1"
 
