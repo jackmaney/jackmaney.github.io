@@ -13,7 +13,7 @@ source "https://rubygems.org"
 # GitHub Pages
 # https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
 
-gem "github-pages", "~> 215", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
 
 # Updating to avoid security issue
 
