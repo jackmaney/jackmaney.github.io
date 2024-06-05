@@ -23,7 +23,7 @@ gem "bigdecimal"
 
 # Updating to avoid security issue
 
-gem "nokogiri", "~> 1.14.5"
+gem "nokogiri", "~> 1.16.5"
 
 gem "kramdown", ">= 2.3.1"
 
