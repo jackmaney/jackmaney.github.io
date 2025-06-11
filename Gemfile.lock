@@ -277,6 +277,7 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    wdm (0.2.0)
     webrick (1.8.1)
     zeitwerk (2.6.15)
 
@@ -300,6 +301,7 @@ DEPENDENCIES
   nokogiri (~> 1.16.5)
   tzinfo (~> 1.2)
   tzinfo-data
+  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
